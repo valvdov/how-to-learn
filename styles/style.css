@@ -30,28 +30,29 @@ top: 30px;
 left: 64px;
 }
 
-.title{
+.header__title{
 font-size: 102px;
 line-height: 96px;
 width: 730px;
+font-weight: 700;
 z-index: 2;
 }
 
-.title_position {
+.header__title_position {
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-left: 64px;
 }
 
-.subtitle {
+.header__subtitle {
   width: 388px;
   font-size: 18px;
   line-height: 25px;
   z-index: 3;
 }
 
-.subtitle_position {
+.header__subtitle_position {
   position: absolute;
   bottom: 30px;
   left: 64px;
@@ -63,13 +64,13 @@ z-index: 2;
 }
 
 
-.main-illustration {
+.header__main-illustration {
   width: 765px;
   height: 608px;
   z-index: 1;
 }
 
-.main-illustration_position {
+.header__main-illustration_position {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -87,7 +88,7 @@ z-index: 2;
   right: 0px;
 }
 
-.two-column {
+.two-columns {
   width: 80%;
   min-width: 784px;
   display: flex;
@@ -95,7 +96,7 @@ z-index: 2;
   align-content: flex-start;
   margin: 100px auto 100px auto;
 }
-.brief {
+.two-columns__brief {
 width: 175px;
 font-size: 18px;
 line-height: 1.2;
@@ -104,29 +105,30 @@ font-weight: normal;
 margin: 0;
 }
 
-.main-text {
+.two-columns__main-text {
   display: flex;
   flex-direction: column;
   width: 80%;
 }
-.paragraph {
+.two-columns__paragraph {
   font-size: 24px;
   line-height: 34px;
   text-align: 30px;
   margin-top: 30px;
 }
 
-.paragraph-no-margin {
+.two-columns__paragraph_position {
   margin-top: 0px;
 }
-.span-accent {
-  font-weight: bold;
+.two-columns__span-accent {
+  font-weight: 700;
 }
 
 .section-title {
   width: 60%;
   font-size: 60px;
   line-height: 1.15;
+  font-weight: 700;
   display: flex;
   justify-content: center;
   margin: 100px auto 20px;
@@ -162,6 +164,7 @@ margin: 0;
   line-height: 1.15;
   margin-bottom: 20px;
   margin-top: 0px;
+  font-weight: 700;
 }
 
 .table__text {
@@ -186,6 +189,7 @@ margin: 0;
   margin-bottom: 70px;
   font-size: 120px;
   line-height: 1.15;
+  font-weight: 700;
   display: flex;
   margin-top: 0;
   align-self: center;
@@ -287,7 +291,7 @@ margin: 0;
    justify-content: space-between;
  }
 
- .footer__columns_copyright {
+ .footer__columns_content-copyright {
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
@@ -316,22 +320,28 @@ margin: 0;
   color: white;
   font-size: 18px;
   line-height: 30px;
+  font-weight: 700;
   margin-bottom: 20px;
   margin-top: 0px;
 }
 
-.column-links {
+.footer__column-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column-link {
   text-decoration: none;
   color: white;
   font-size: 18px;
   line-height: 30px;
 }
 
-.column-link {
-width: 16px;
-height: 16px;
-margin-right: 10px;
-margin-top: auto;
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  margin-top: auto;
 
 }
 
