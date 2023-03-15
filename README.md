@@ -5,7 +5,7 @@
 
 [Ссылка на Сайт](https://valvdov.github.io/how-to-learn/)
 
-# Learning to learn
+# How to learn
 My first project written entirely in HTML and CSS. This site is a practical work done while learning on [Yandex Practicum](https://practicum.yandex.ru/).
 
 The site implements BEM structure and uses CSS animation. There are many links that will lead to other pages of the site (or other sites) in the future.
